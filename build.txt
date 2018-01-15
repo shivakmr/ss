@@ -1,7 +1,0 @@
-cd /home/localdev/ecclatest/ComplexEvents/apps/complexEventMgr/
-
-sudo MIX_ENV=prod mix release --name=complexEventMgr --env=prod
-
-tar -zxvf complexEventMgr.tar.gz
-
-bin/complexEventMgr start
